@@ -24,7 +24,7 @@ const solhint = async contracts_directory =>
     });
 
     solhint.on("stderr", data => {
-      console.log(data.toString());
+      console.error(data.toString());
       reject(data.toString());
     });
 
