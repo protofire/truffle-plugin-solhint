@@ -4,7 +4,7 @@
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.svg)](https://gitter.im/solhint/Lobby)
 [![NPM version](https://badge.fury.io/js/truffle-plugin-solhint.svg)](https://npmjs.org/package/truffle-plugin-solhint)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/protofire/truffle-plugin-solhint/master/LICENSE)
-[![dependencies Status](https://david-dm.org/protofire/truffle-plugin-solhint/status.svg)](https://david-dm.org/truffle-plugin-solhint/solhint)
+[![dependencies Status](https://david-dm.org/protofire/truffle-plugin-solhint/status.svg)](https://david-dm.org/protofire/truffle-plugin-solhint)
 [![devDependencies Status](https://david-dm.org/protofire/truffle-plugin-solhint/dev-status.svg)](https://david-dm.org/protofire/truffle-plugin-solhint?type=dev)
 
 This truffle plugin allows you to run [Solhint](https://github.com/protofire/solhint) linter in your smart contracts source code, straight from the Truffle CLI.
