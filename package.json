@@ -4,6 +4,11 @@
   "description": "Lint your smart contracts with solhint from the Truffle CLI",
   "repository": "https://github.com/protofire/truffle-plugin-solhint",
   "main": "src/index.js",
+  "files": [
+    "src",
+    ".solhint.json",
+    "truffle-plugin.json"
+  ],
   "scripts": {
     "lint": "eslint .",
     "solhint": "solhint"
