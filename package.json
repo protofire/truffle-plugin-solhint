@@ -1,0 +1,42 @@
+{
+  "name": "truffle-plugin-solhint",
+  "version": "0.0.1",
+  "description": "Lint your smart contracts with solhint from the Truffle CLI",
+  "repository": "https://github.com/protofire/truffle-plugin-solhint",
+  "main": "src/index.js",
+  "files": [
+    "src",
+    ".solhint.json",
+    "truffle-plugin.json"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "solhint": "solhint"
+  },
+  "keywords": [
+    "truffle",
+    "plugin",
+    "ethereum",
+    "solidity",
+    "linting",
+    "lint",
+    "solhint"
+  ],
+  "author": "Mariano Aguero <mariano.aguero@altoros.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/protofire/truffle-plugin-solhint/issues"
+  },
+  "homepage": "https://github.com/protofire/truffle-plugin-solhint#readme",
+  "dependencies": {
+    "npm-which": "^3.0.1",
+    "solhint": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-prettier": "^3.1.0"
+  }
+}
