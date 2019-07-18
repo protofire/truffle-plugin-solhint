@@ -30,7 +30,7 @@
   "homepage": "https://github.com/protofire/truffle-plugin-solhint#readme",
   "dependencies": {
     "npm-which": "^3.0.1",
-    "solhint": "^2.1.1"
+    "solhint": "^2.1.2"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
